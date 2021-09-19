@@ -1,0 +1,22 @@
+#form h1{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #664;
+}
+.formcal{
+    background: #f0eedc;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    padding-top: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+}
+
+@media (max-width: 480px) {
+    .formcal{
+        width: 350px;
+    }
+}
